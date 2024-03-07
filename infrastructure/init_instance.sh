@@ -148,7 +148,7 @@ RECODE_AGENT_SYSTEMD_SERVICE_NAME="recode_agent.service"
 
 if [[ ! -f "${RECODE_AGENT_PATH}" ]]; then
   rm --recursive --force "${RECODE_AGENT_TMP_ARCHIVE_PATH}"
-  curl --fail --silent --show-error --location --header "Accept: application/octet-stream" "https://github.com/recode-sh/agent/releases/download/v${RECODE_AGENT_VERSION}/agent_${RECODE_AGENT_VERSION}_linux_${INSTANCE_ARCH}.tar.gz" --output "${RECODE_AGENT_TMP_ARCHIVE_PATH}"
+  curl --fail --silent --show-error --location --header "Accept: application/octet-stream" "https://github.com/VidwaDeSeram/IncentiCode-agent/releases/download/v${RECODE_AGENT_VERSION}/agent_${RECODE_AGENT_VERSION}_linux_${INSTANCE_ARCH}.tar.gz" --output "${RECODE_AGENT_TMP_ARCHIVE_PATH}"
   tar --directory "${RECODE_AGENT_DIR}" --extract --file "${RECODE_AGENT_TMP_ARCHIVE_PATH}"
   rm --recursive --force "${RECODE_AGENT_TMP_ARCHIVE_PATH}"
 fi
