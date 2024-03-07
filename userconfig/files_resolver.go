@@ -31,9 +31,10 @@ const (
 	AWSConfigFileDefaultProfile = "default"
 )
 
-//go:generate mockgen -destination ../mocks/user_config_profile_loader.go -package mocks -mock_names ProfileLoader=UserConfigProfileLoader github.com/recode-sh/aws-cloud-provider/userconfig ProfileLoader
 // ProfileLoader represents the interface
 // used to load configuration profile from files
+//
+//go:generate mockgen -destination ../mocks/user_config_profile_loader.go -package mocks -mock_names ProfileLoader=UserConfigProfileLoader github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/userconfig ProfileLoader
 type ProfileLoader interface {
 	Load(
 		profile string,

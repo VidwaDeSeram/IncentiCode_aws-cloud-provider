@@ -33,9 +33,10 @@ const (
 	AWSRegionEnvVar = "AWS_REGION"
 )
 
-//go:generate mockgen -destination ../mocks/user_config_env_vars_getter.go -package mocks -mock_names EnvVarsGetter=UserConfigEnvVarsGetter  github.com/recode-sh/aws-cloud-provider/userconfig EnvVarsGetter
 // EnvVarsGetter represents the interface
 // used to access environment variables.
+//
+//go:generate mockgen -destination ../mocks/user_config_env_vars_getter.go -package mocks -mock_names EnvVarsGetter=UserConfigEnvVarsGetter  github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/userconfig EnvVarsGetter
 type EnvVarsGetter interface {
 	Get(string) string
 }

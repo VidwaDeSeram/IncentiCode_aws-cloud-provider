@@ -6,9 +6,9 @@ package service_test
 
 // 	"github.com/aws/aws-sdk-go-v2/aws"
 // 	"github.com/golang/mock/gomock"
-// 	"github.com/recode-sh/aws-cloud-provider/mocks"
-// 	"github.com/recode-sh/aws-cloud-provider/service"
-// 	"github.com/recode-sh/aws-cloud-provider/userconfig"
+// 	"github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/mocks"
+// 	"github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/service"
+// 	"github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/userconfig"
 // )
 
 // func TestBuildWithResolvedUserConfig(t *testing.T) {

@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/config"
+	"github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/userconfig"
 	awsconfig "github.com/aws/aws-sdk-go-v2/config"
-	"github.com/recode-sh/aws-cloud-provider/config"
-	"github.com/recode-sh/aws-cloud-provider/userconfig"
 )
 
 func TestLoadWithExistingProfiles(t *testing.T) {

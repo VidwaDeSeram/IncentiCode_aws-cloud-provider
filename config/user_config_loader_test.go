@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/recode-sh/aws-cloud-provider/config"
-	"github.com/recode-sh/aws-cloud-provider/userconfig"
+	"github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/config"
+	"github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/userconfig"
 )
 
 func TestLoader(t *testing.T) {

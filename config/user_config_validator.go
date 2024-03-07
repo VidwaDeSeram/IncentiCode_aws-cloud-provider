@@ -3,7 +3,7 @@ package config
 import (
 	"regexp"
 
-	"github.com/recode-sh/aws-cloud-provider/userconfig"
+	"github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/userconfig"
 
 	awsRegions "github.com/jsonmaur/aws-regions/v2"
 )

@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/mocks"
+	"github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/userconfig"
 	"github.com/golang/mock/gomock"
-	"github.com/recode-sh/aws-cloud-provider/mocks"
-	"github.com/recode-sh/aws-cloud-provider/userconfig"
 )
 
 func TestEnvVarsResolving(t *testing.T) {

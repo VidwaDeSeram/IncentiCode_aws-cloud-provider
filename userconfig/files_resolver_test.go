@@ -4,10 +4,10 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/mocks"
+	"github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/userconfig"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/golang/mock/gomock"
-	"github.com/recode-sh/aws-cloud-provider/mocks"
-	"github.com/recode-sh/aws-cloud-provider/userconfig"
 )
 
 func TestFilesResolving(t *testing.T) {
