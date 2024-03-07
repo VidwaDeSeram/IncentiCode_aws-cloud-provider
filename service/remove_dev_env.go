@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 
 	"github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/infrastructure"
+	"github.com/VidwaDeSeram/IncentiCode_recode/entities"
+	"github.com/VidwaDeSeram/IncentiCode_recode/queues"
+	"github.com/VidwaDeSeram/IncentiCode_recode/stepper"
 	"github.com/aws/aws-sdk-go-v2/service/ec2"
-	"github.com/recode-sh/recode/entities"
-	"github.com/recode-sh/recode/queues"
-	"github.com/recode-sh/recode/stepper"
 )
 
 func (a *AWS) RemoveDevEnv(

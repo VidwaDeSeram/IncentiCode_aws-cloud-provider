@@ -5,9 +5,9 @@ import (
 	"sync"
 
 	"github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/infrastructure"
+	"github.com/VidwaDeSeram/IncentiCode_recode/entities"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/ec2"
-	"github.com/recode-sh/recode/entities"
 )
 
 func SaveDevEnvData(

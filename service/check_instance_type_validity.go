@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/infrastructure"
+	"github.com/VidwaDeSeram/IncentiCode_recode/stepper"
 	"github.com/aws/aws-sdk-go-v2/service/ec2"
-	"github.com/recode-sh/recode/stepper"
 )
 
 type ErrInvalidInstanceType struct {

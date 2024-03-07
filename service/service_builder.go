@@ -2,8 +2,8 @@ package service
 
 import (
 	"github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/userconfig"
+	"github.com/VidwaDeSeram/IncentiCode_recode/entities"
 	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/recode-sh/recode/entities"
 )
 
 //go:generate mockgen -destination ../mocks/user_config_resolver.go -package mocks -mock_names UserConfigResolver=UserConfigResolver github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider/service UserConfigResolver

@@ -2,7 +2,7 @@ module github.com/VidwaDeSeram/IncentiCode_aws-cloud-provider
 
 go 1.18
 
-replace github.com/recode-sh/recode v0.0.0 => ../recode
+replace github.com/VidwaDeSeram/IncentiCode_recode v0.0.0 => ../recode
 
 replace github.com/recode-sh/agent v0.0.0 => ../agent
 
@@ -16,7 +16,7 @@ require (
 	github.com/golang/mock v1.6.0
 	github.com/jsonmaur/aws-regions/v2 v2.3.1
 	github.com/recode-sh/agent v0.0.0
-	github.com/recode-sh/recode v0.0.0
+	github.com/VidwaDeSeram/IncentiCode_recode v0.0.0
 	golang.org/x/crypto v0.0.0-20220313003712-b769efc7c000
 )
 

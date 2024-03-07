@@ -7,8 +7,8 @@ import (
 	"net"
 	"time"
 
+	"github.com/VidwaDeSeram/IncentiCode_recode/entities"
 	"github.com/aws/aws-sdk-go-v2/service/ec2"
-	"github.com/recode-sh/recode/entities"
 	"golang.org/x/crypto/ssh"
 )
 

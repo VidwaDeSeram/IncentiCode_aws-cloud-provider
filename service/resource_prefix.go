@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/recode-sh/recode/entities"
+	"github.com/VidwaDeSeram/IncentiCode_recode/entities"
 )
 
 func prefixClusterResource(
