@@ -7,7 +7,7 @@ go 1.18
 // replace github.com/VidwaDeSeram/IncentiCode-agent v0.0.0 => ../agent
 
 require (
-	github.com/VidwaDeSeram/IncentiCode-agent v0.0.0
+	github.com/VidwaDeSeram/IncentiCode-agent v0.0.1
 	github.com/VidwaDeSeram/IncentiCode_recode v1.0.0
 	github.com/aws/aws-sdk-go-v2 v1.15.0
 	github.com/aws/aws-sdk-go-v2/config v1.13.1

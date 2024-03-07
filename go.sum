@@ -1,7 +1,5 @@
-github.com/VidwaDeSeram/IncentiCode-agent v0.0.0 h1:NMPPUXwepYhW1kV5jE2HJ639JAmI1irgEIElO4SSYJg=
-github.com/VidwaDeSeram/IncentiCode-agent v0.0.0/go.mod h1:F1raWsS3pkXtta6ueKFb9ULqr3wf8u9wdQpRNSD10uw=
-github.com/VidwaDeSeram/IncentiCode-agent v1.0.0 h1:EH4IDlfGyGsS1L6U6jL6UwFligkp9DtooXcOM0yU1aU=
-github.com/VidwaDeSeram/IncentiCode-agent v1.0.0/go.mod h1:F1raWsS3pkXtta6ueKFb9ULqr3wf8u9wdQpRNSD10uw=
+github.com/VidwaDeSeram/IncentiCode-agent v0.0.1 h1:cK3MFrwkkpB46a0il3sOnWS23dD69HUx5yaRRFRzQqM=
+github.com/VidwaDeSeram/IncentiCode-agent v0.0.1/go.mod h1:viLYjec80if5VvnyIaDdFJwBpsEit+kcU20rnvWC0Bo=
 github.com/VidwaDeSeram/IncentiCode_recode v1.0.0 h1:MC9P8M/wX6GMkm2L8KZfFTFdO5HLD5sqrmg6kT4vYSI=
 github.com/VidwaDeSeram/IncentiCode_recode v1.0.0/go.mod h1:bCpmkH1lKnPA6ea+QHLH3dwsb3lNxHD/i+MsNuNQJSY=
 github.com/aws/aws-sdk-go-v2 v1.13.0/go.mod h1:L6+ZpqHaLbAaxsqV0L4cvxZY7QupWJB4fhkf8LXvC7w=
